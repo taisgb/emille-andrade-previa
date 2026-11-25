@@ -10,3 +10,10 @@
 
 /* Novas fotografias e identidade visual */
 .brand{flex-shrink:0}.brand .brand-logo-full{width:254px;height:60px;object-fit:cover;object-position:center;border-radius:0;background:none}.footer-content .brand .brand-logo-full{width:280px;height:74px}.portrait{width:min(100%,405px);aspect-ratio:4/5}.portrait img{object-position:center top}.about-portrait.about-cutout{background:var(--stage-one)}.about-portrait.about-cutout img{display:block;width:100%;height:clamp(340px,38vw,480px);aspect-ratio:auto;object-fit:contain;object-position:center bottom;padding:12px 12px 0}.about-cutout .photo-tag{background:var(--paper)}@media(max-width:1000px){.brand .brand-logo-full{width:220px;height:53px}}@media(max-width:800px){.brand .brand-logo-full{width:190px;height:48px}.portrait{max-width:340px}.about-portrait.about-cutout img{height:400px}.footer-content .brand .brand-logo-full{width:240px;height:64px}}@media(max-width:360px){.brand .brand-logo-full{width:165px;height:44px}.about-portrait.about-cutout img{height:340px}}
+
+/* Sobre — retrato em meio corpo e apresentação editorial */
+.about-portrait.about-cutout .about-photo-crop{position:relative;width:100%;aspect-ratio: 9/10;overflow:hidden;background:var(--stage-one)}
+.about-portrait.about-cutout .about-photo-crop img{position:absolute;top:2%;left:50%;transform:translateX(-50%);width:190%;max-width:none;height:auto;aspect-ratio:auto;object-fit:initial;display:block;padding:0}
+.about-bio{max-width:62ch;color:var(--muted);font-size:17px;line-height:1.8}
+.about-bio p{margin:0 0 16px}.about-bio p:last-child{margin-bottom:0}.about-contact{margin-top:24px}
+@media(max-width:800px){.about-bio{font-size:16px;line-height:1.75}.about-contact{margin-top:20px}}
