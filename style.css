@@ -7,3 +7,6 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}.js .reveal{opacity:1!important;transform:none!important}}
 
 .about-portrait img{height:auto}
+
+/* Novas fotografias e identidade visual */
+.brand{flex-shrink:0}.brand .brand-logo-full{width:254px;height:60px;object-fit:cover;object-position:center;border-radius:0;background:none}.footer-content .brand .brand-logo-full{width:280px;height:74px}.portrait{width:min(100%,405px);aspect-ratio:4/5}.portrait img{object-position:center top}.about-portrait.about-cutout{background:var(--stage-one)}.about-portrait.about-cutout img{display:block;width:100%;height:clamp(340px,38vw,480px);aspect-ratio:auto;object-fit:contain;object-position:center bottom;padding:12px 12px 0}.about-cutout .photo-tag{background:var(--paper)}@media(max-width:1000px){.brand .brand-logo-full{width:220px;height:53px}}@media(max-width:800px){.brand .brand-logo-full{width:190px;height:48px}.portrait{max-width:340px}.about-portrait.about-cutout img{height:400px}.footer-content .brand .brand-logo-full{width:240px;height:64px}}@media(max-width:360px){.brand .brand-logo-full{width:165px;height:44px}.about-portrait.about-cutout img{height:340px}}
